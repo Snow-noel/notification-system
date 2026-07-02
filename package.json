@@ -1,0 +1,21 @@
+{
+  "name": "notification-system",
+  "version": "1.0.0",
+  "description": "a notification system for the web",
+  "main": "index.js",
+  "scripts": {
+    "run": "nodemon server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Snowden",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1",
+    "pd": "^0.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
